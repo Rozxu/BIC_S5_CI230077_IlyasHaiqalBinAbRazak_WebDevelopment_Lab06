@@ -14,7 +14,5 @@ imagestring($image, 5, 50, 40, "Welcome to Our Shop!", $white);
 
 // Output the image
 imagepng($image);
-
-// Free memory
 imagedestroy($image);
 ?>
